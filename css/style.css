@@ -1,0 +1,90 @@
+.bg-image {
+    display: block;
+    position: fixed;
+    background-image: url(Building.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+
+h1, h4, h5 { 
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 20px; 
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4, h5 {
+    font-weight: 50;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+span:hover {
+    font-size: 0;
+}
+
+span:hover:after {
+    content: attr(data-hover);
+    font-size: 50px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 225px;
+    margin-top: -2px;
+}
+
+ul {
+    transform: translateX(-1.1em) translateY(0.5em);
+}
+
+.header {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#ital {
+    font-style: italic;
+}
+
+.container {
+    z-index: 2;
+}
+
+a {
+    margin-top: 20px;
+}
+i {
+    color: white;
+    font-size: 30px;
+    padding: 3px 10px;
+    -webkit-transition-duration: 0.25s;
+    transition-duration: 0.25s;
+}
+i:hover {
+    color: #808080;
+}
