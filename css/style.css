@@ -10,11 +10,16 @@
     z-index: -10;
 }
 
+span {
+    font-size: 67px;
+}
+
 h1, h4, h5 { 
     font-family: 'Open Sans', sans-serif; 
     margin-bottom: 20px; 
     margin-bottom: 10px;
     color: #fff;
+    font-weight: 700;
 }
 
 h1 {
@@ -27,15 +32,6 @@ h4, h5 {
 
 h4 {
     font-size: 24px;
-}
-
-span:hover {
-    font-size: 0;
-}
-
-span:hover:after {
-    content: attr(data-hover);
-    font-size: 50px;
 }
 
 hr {
