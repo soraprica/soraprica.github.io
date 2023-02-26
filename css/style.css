@@ -1,86 +1,97 @@
-.bg-image {
-    display: block;
-    position: fixed;
-    background-image: url(Building.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: -10;
+/* Global styles */
+body {
+	font-family: 'Segoe UI', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-span {
-    font-size: 67px;
+header {
+	background-color: #0077b6;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
 }
 
-h1, h4, h5 { 
-    font-family: 'Open Sans', sans-serif; 
-    margin-bottom: 20px; 
-    margin-bottom: 10px;
-    color: #fff;
-    font-weight: 700;
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-h1 {
-    font-size: 50px;
+nav li {
+	margin: 0 1rem;
 }
 
-h4, h5 {
-    font-weight: 50;
+nav a {
+	color: #fff;
+	text-decoration: none;
 }
 
-h4 {
-    font-size: 24px;
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 2rem;
 }
 
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    width: 225px;
-    margin-top: -2px;
+h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
-ul {
-    transform: translateX(-1.1em) translateY(0.5em);
+form {
+	display: flex;
+	align-items: center;
 }
 
-.header {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+label {
+	margin-right: 1rem;
 }
 
-.layer {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
-    z-index: 0;
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 0.5rem;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	font-size: 1rem;
 }
 
-#ital {
-    font-style: italic;
+button[type="submit"] {
+	background-color: #0077b6;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 3px;
+	font-size: 1rem;
+	cursor: pointer;
 }
 
-.container {
-    z-index: 2;
+button[type="submit"]:hover {
+	background-color: #023e8a;
 }
 
-a {
-    margin-top: 20px;
+/* Specific styles */
+#hero {
+	background-color: #f2f2f2;
+	padding: 3rem;
+	text-align: center;
 }
-i {
-    color: white;
-    font-size: 30px;
-    padding: 3px 10px;
-    -webkit-transition-duration: 0.25s;
-    transition-duration: 0.25s;
+
+#about-us {
+	margin: 3rem 0;
 }
-i:hover {
-    color: #808080;
+
+#services ul {
+	columns: 2;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#contact form {
+	display: flex;
+	flex-direction: column;
 }
