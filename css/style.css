@@ -7,7 +7,7 @@ body {
 }
 
 .background {
-    background-image: url('background.jpb')/* Change this to your background image */
+    background-image: url('background.jpg'); /* Change this to your background image */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -24,11 +24,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
+    padding: 20px;
+    max-width: 80%;
+  }
 
 h1 {
     font-size: 36px;
