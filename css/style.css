@@ -7,7 +7,7 @@ body {
 }
 
 .background {
-    background-image: url('background.jpg'); /* Change this to your background image */
+    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fquotefancy.com%2Fmedia%2Fwallpaper%2F3840x2160%2F15452-Lily-Tomlin-Quote-The-road-to-success-is-always-under-construction.jpg&tbnid=VNh5QN0cLwjejM&vet=10CHAQMyiAAmoXChMIgIvTsPfdgAMVAAAAAB0AAAAAEAM..i&imgrefurl=https%3A%2F%2Fquotefancy.com%2Fquote%2F25487%2FLily-Tomlin-The-road-to-success-is-always-under-construction&docid=indBwEG2hZsOmM&w=3840&h=2160&q=under%20construction&ved=0CHAQMyiAAmoXChMIgIvTsPfdgAMVAAAAAB0AAAAAEAM'); /* Change this to your background image */
     background-size: cover;
     background-position: center;
     width: 100%;
