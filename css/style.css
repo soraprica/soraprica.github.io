@@ -7,7 +7,7 @@ body {
 }
 
 .background {
-    background-image: url('poppies-174276_1920.jpg'); /* Change this to your background image */
+    background-image: url('https://pixabay.com/photos/poppies-field-sunset-dusk-sunlight-174276/'); /* Change this to your background image */
     background-size: cover;
     background-position: center;
     width: 100%;
