@@ -6,23 +6,55 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            background: linear-gradient(to bottom, #1e5799 0%, #2989d8 50%, #207cca 100%);
-            color: #ffffff;
-            font-family: 'Arial', sans-serif;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
         }
 
+        .background {
+            background-image: url('https://github.com/soraprica/soraprica.github.io/blob/master/css/Building.jpg'); /* Change this to your background image */
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 80%;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="background"></div>
     <div class="container">
         <h1>Under Construction</h1>
         <p>We're working on something awesome. Please check back soon!</p>
     </div>
 </body>
 </html>
+```
+
+이렇게 하면 배경 이미지와 스타일이 추가되어 깔끔하고 멋진 페이지가 될 거예요!
