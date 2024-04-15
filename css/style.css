@@ -1,13 +1,12 @@
 body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    overflow: hidden;
 }
 
 .background {
-    background-image: url('https://github.com/soraprica/soraprica.github.io/blob/master/css/Building.jpg'); /* Change this to your background image */
+    background-image: url('https://raw.githubusercontent.com/soraprica/soraprica.github.io/master/Building.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -29,7 +28,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     max-width: 80%;
-  }
+}
 
 h1 {
     font-size: 36px;
